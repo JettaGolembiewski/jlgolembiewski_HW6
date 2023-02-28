@@ -45,10 +45,6 @@ main {
   color: #fff;
   font-size: 20px;
 }
-.centered-image {
-  display: block;
-  margin: auto;
-}
 
 footer {
   background-color: #41615f;
@@ -56,4 +52,30 @@ footer {
   text-align: center;
   color: whitesmoke;
   border-bottom: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  color: whitesmoke;
+}
+
+.day {
+  text-align: center;
+  background-color: #41615f;
+  padding: 5px;
+  border: none;
+}
+
+.course {
+  text-align: right;
+  background-color: #41615f;
+  padding: 5px;
+  border: none;
+}
+
+td {
+  padding: 5px 5px 5px 5px;
+  vertical-align: middle;
+  text-align: center;
+  border: 1px solid #41615f;
 }
